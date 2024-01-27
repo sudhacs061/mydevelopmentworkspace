@@ -1,0 +1,20 @@
+package com.genetech.programs.twoDArray.Assignments;
+
+public class readiArraynreverseorder {
+
+	public static void main(String[] args) {
+
+		String a[][] = {{"test1","test2","test3"},{"test4","test5","test6"},{"test7","test8","test9"}};
+		String sen = "";
+				for(int i=a.length-1; i>=0 ;i--) {
+					
+				for(int j=0; j<a[0].length;j++) {
+					System.out.print(a[i][j] + " ");
+			 	}
+				System.out.println();
+				}
+
+
+		}
+	}
+
